@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cybertek.fidgetspinnah" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:gap="http://phonegap.com/ns/1.0">
+    <description>
+        A blank PhoneGap app.
+    </description>
+    <feature name="Device">
+        <param name="browser-package" value="Device" />
+    </feature>
+    <name>Fidget Spinnah</name>
+    <description>
+        A simple fidget spinner simulator.
+    </description>
+    <author email="support@cybertek.io" href="http://cybertek.io">
+        Cybertek Solutions LLC
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

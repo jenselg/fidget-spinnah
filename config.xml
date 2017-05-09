@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="io.cybertek.fidgetspinnah" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Fidget Spinnah</name>
+    <description>
+        A simple fidget spinner simulator.
+    </description>
+    <author email="support@cybertek.io" href="http://cybertek.io">
+        Cybertek Solutions LLC
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-admobpro" spec="~2.28.3" />
+    <plugin name="cordova-plugin-device" spec="~1.1.6" />
+    <plugin name="cordova-plugin-crosswalk-webview" spec="~2.3.0" />
+</widget>

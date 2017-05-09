@@ -1,0 +1,25 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-admobpro": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-extension": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        }
+    }
+}

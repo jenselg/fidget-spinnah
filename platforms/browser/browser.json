@@ -1,0 +1,103 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {
+            "config.xml": {
+                "parents": {
+                    "/*": [
+                        {
+                            "xml": "<feature name=\"Device\"><param name=\"browser-package\" value=\"Device\" /></feature>",
+                            "count": 1
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "installed_plugins": {
+        "cordova-plugin-admobpro": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        },
+        "cordova-plugin-extension": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        },
+        "cordova-plugin-device-motion": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        },
+        "cordova-plugin-vibrate-intense": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        },
+        "cordova-plugin-crosswalk-webview": {
+            "PACKAGE_NAME": "io.cybertek.fidgetspinnah"
+        }
+    },
+    "dependent_plugins": {},
+    "modules": [
+        {
+            "file": "plugins/cordova-plugin-admobpro/www/AdMob.js",
+            "id": "cordova-plugin-admobpro.AdMob",
+            "pluginId": "cordova-plugin-admobpro",
+            "clobbers": [
+                "window.AdMob"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device/www/device.js",
+            "id": "cordova-plugin-device.device",
+            "pluginId": "cordova-plugin-device",
+            "clobbers": [
+                "device"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device/src/browser/DeviceProxy.js",
+            "id": "cordova-plugin-device.DeviceProxy",
+            "pluginId": "cordova-plugin-device",
+            "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-device-motion/www/Acceleration.js",
+            "id": "cordova-plugin-device-motion.Acceleration",
+            "pluginId": "cordova-plugin-device-motion",
+            "clobbers": [
+                "Acceleration"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device-motion/www/accelerometer.js",
+            "id": "cordova-plugin-device-motion.accelerometer",
+            "pluginId": "cordova-plugin-device-motion",
+            "clobbers": [
+                "navigator.accelerometer"
+            ]
+        },
+        {
+            "file": "plugins/cordova-plugin-device-motion/src/browser/AccelerometerProxy.js",
+            "id": "cordova-plugin-device-motion.AccelerometerProxy",
+            "pluginId": "cordova-plugin-device-motion",
+            "runs": true
+        },
+        {
+            "file": "plugins/cordova-plugin-vibrate-intense/www/client.js",
+            "id": "cordova-plugin-vibrate-intense.client",
+            "pluginId": "cordova-plugin-vibrate-intense",
+            "clobbers": [
+                "community.vibration"
+            ]
+        }
+    ],
+    "plugin_metadata": {
+        "cordova-plugin-admobpro": "2.28.3",
+        "cordova-plugin-device": "1.1.6",
+        "cordova-plugin-extension": "1.5.1",
+        "cordova-plugin-device-motion": "1.2.5",
+        "cordova-plugin-vibrate-intense": "1.0.1",
+        "cordova-plugin-crosswalk-webview": "2.3.0"
+    }
+}
