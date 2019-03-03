@@ -1,12 +1,12 @@
 function startApp(){
-    
+
     if(navigator.splashscreen) {
         navigator.splashscreen.hide();
     }
 
     if (device.platform == "Android") {
         admobid = {
-            banner: 'ca-app-pub-8133264651158274/2333118143'
+            banner: 'REMOVED'
         }
     } /*else if (device.platform == "iOS") {
         admobid = {
@@ -21,7 +21,7 @@ function startApp(){
             position: AdMob.AD_POSITION.BOTTOM_CENTER,
             autoShow: true
         });
-        
+
     }
 
 	//PHASER
